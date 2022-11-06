@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Passion+One&family=Qwitcher+Grypen:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root{
+    --fonte1:'Passion One', cursive;
+    --fonte2:'Sriracha', cursive;
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -16,9 +25,9 @@ html, body{
     
 }
 .imagem p{
-    background-color: rgba(0, 0, 0, 0.377);
-    width: 300px;
+    background-color: rgba(0, 0, 0, 0.274);
     color: white;
+    display: inline-block;
 }
 header{
     background-color: black;
@@ -29,6 +38,10 @@ header{
 header>h1{
     font-variant: small-caps;
     padding-top: 100px;
+    font-family: var(--fonte1);
+    font-weight: normal;
+    font-size: 10vw;
+    
     
 }
 header>p{
@@ -48,6 +61,8 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte2);
+    font-size: 2vw;
 }
 footer{
     background-color: black;
