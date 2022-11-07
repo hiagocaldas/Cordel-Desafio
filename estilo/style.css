@@ -24,10 +24,27 @@ html, body{
 .normal p{
     
 }
+.imagem{
+    background-size: cover;
+    background-attachment: fixed;
+
+}
 .imagem p{
     background-color: rgba(0, 0, 0, 0.274);
     color: white;
     display: inline-block;
+    box-shadow: inset 5px 5px 10px 2px black;
+}
+section#img1{
+    background-image: url(../../pacote-d012/imagens/background001.jpg);
+    background-position: right center;
+    box-shadow: inset 5px 5px 10px 2px black;
+    
+
+}
+section#img2{
+    background-image: url(../../pacote-d012/imagens/background002.jpg);
+    box-shadow: inset 5px 5px 10px 2px black;
 }
 header{
     background-color: black;
